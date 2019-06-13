@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test Kia</title>
+    <link rel="stylesheet" href="./normalize.css"> 
+    <link rel="stylesheet" href="./styles.css"> 
+  </head>
+  <body>
+    <header>
+        <section class="red">
+            <div class="wrapper header_wrap">
+                <div class="logo"><img src="src/logo1.png"></div>
+                <div class="marker"><img src="src/marker.png"><span> Краснодар, <br/>Тургеневское шоссе, 2</span></div>
+                <div class="mobile_menu">
+                        <input type="checkbox" id="showmenu"/>
+                        <label class="showmenu" for="showmenu">☰</label>
+                        <ul>
+                                <li><a href="#">Picanto</a></li>
+                                <li><a href="#">Rio</a></li>
+                                <li><a href="#rio">Rio X-Line</a></li>
+                                <li><a href="#ceed">Creed SW</a></li>
+                                <li><a href="#">CeratoNFW</a></li>
+                                <li><a href="#">Optima NFW</a></li>
+                                <li><a href="#">Stinger</a></li>
+                                <li><a href="#">Quoris</a></li>
+                                <li><a href="#">Soul</a></li>
+                                <li><a href="#">Sportage</a></li>
+                                <li><a href="#">Sorento</a></li>
+                                <li><a href="#">Sorento Prime</a></li>
+                                <li><a href="#">Mohave</a></li>
+                            </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="mobile_none">
+            <div class="header_wrap">
+            <div class="btn red"><a href="#popup">Заказать звонок</a></div>
+            <div class="kia"><img src="src/logoKia.png"></div>
+            </div>
+    </section>
+    </header>
+    
+    <section class="banner">
+        <section class="head red">
+        <div class="wrapper">
+            <span>Только до конца октября</span><br/>
+            <span class="attention">масшабные выгоды</span><br/>
+            <span>на весь модельный ряд!</span></br>
+            <div class="btn profit redfont bold"><a href="#popup">Забрать выгоду</a></div>
+        
+        <h1 class="mobile_none">Подберите свой KIA</h1>
+        <div class="list mobile_none">
+        <ul>
+            <li><a href="#">Picanto</a></li>
+            <li><a href="#">Rio</a></li>
+            <li><a href="#rio">Rio X-Line</a></li>
+            <li><a href="#ceed">Creed SW</a></li>
+            <li><a href="#">CeratoNFW</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Optima NFW</a></li>
+            <li><a href="#">Stinger</a></li>
+            <li><a href="#">Quoris</a></li>
+            <li><a href="#">Soul</a></li>
+            <li><a href="#">Sportage</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Sorento</a></li>
+            <li><a href="#">Sorento Prime</a></li>
+            <li><a href="#">Mohave</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="img"></div>
+        </section>
+        
+        <div class="forma">
+            <h2>Супер кредит 0,1%</h2>
+            <p>на <span>Kia sportage, stinger, sorento, sorento prime</span></p>
+        <form action="/action.php" method="post">
+            <input type="tel"  name="tel" placeholder="Введите телефон">
+            <input type="submit" class="red" value="Получить кредит">
+        </form>
+        </div>
+    </section> 
+    <div id="popup" class="popup">
+            <div class="popup_wrap">
+                <a href="#close" class="close">&#10006;</a>
+                <h3>Получите все выгоды!</h3>
+                <form action="/action.php" method="post">
+                    <input type="tel"  name="tel" placeholder="Введите номер">
+                    <input type="submit"class="red" value="Получить все выгоды">
+                </form>
+                <p>Нажав на кнопку "Отправить заявку", я даю согласие на обработку моих персональных данных и получение рекламных предложений. С условиями обработки персональных данных и получения предложений - ознакомлен и согласен.</p>
+            </div>
+        </div>
+    <ul class="main wrapper">
+        <li class="car" id="rio">
+            <div class="left">
+                <h3>KIA Rio X-Line</h3>
+                <img src="src/car1.jpg" alt="Kia Rio">
+            </div>
+            <div class="right">
+                <div class="sircle"><img src="src/sircle.jpg"><span>Зимняя резина <br/>в подарок</span></div>
+                <span class="redfont bold">Выгода до 60 000 руб.</span>
+                <div class="btn redfont kredit"><a href="#popup">В кредит за 3 500 р/мес</a></div>
+                <div class="btn red"><a href="#popup">Получить выгоду</a></div>
+                <div class="btn spez"><a href="#popup">Спецпредложение</a></div>
+            </div>
+            <div class="rectangle"></div>
+        </li>
+        <li class="car" id="ceed">
+            <div class="left">
+                <h3>KIA Ceed <span class="redfont">New</span></h3>
+                <img src="src/car2.jpg" alt="Kia Creed">
+            </div>
+            <div class="right">
+                <div class="sircle"><img src="src/sircle.jpg"><span>Зимняя резина <br/>в подарок</span></div>
+                <span class="redfont bold">Выгода до 60 000 руб.</span>
+                <div class="btn redfont kredit"><a href="#popup">В кредит за 3 500 р/мес</a></div>
+                <div class="btn red"><a href="#popup">Получить выгоду</a></div>
+                <div class="btn spez"><a href="#popup">Спецпредложение</a></div>
+            </div>
+            <div class="rectangle"></div>
+        </li>
+    </ul>  
+    <footer>
+        <div class="wrapper">
+        <section class="map">
+            <h5>Новая Адыгея</h5>
+            <a class="mobile_map" href="https://yandex.ru/maps/?um=constructor%3A6255092dd4de61712d2b2100bfc30032d0e26ad3c72de4def9d2cab543800f87&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A6255092dd4de61712d2b2100bfc30032d0e26ad3c72de4def9d2cab543800f87&amp;width=420&amp;height=240&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+            <a class="mobile_none" href="https://yandex.ru/maps/?um=constructor%3A6255092dd4de61712d2b2100bfc30032d0e26ad3c72de4def9d2cab543800f87&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A6255092dd4de61712d2b2100bfc30032d0e26ad3c72de4def9d2cab543800f87&amp;width=600&amp;height=325&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+        </section>
+        </div>
+        <section class="contacts red">
+            <div class="footer_wrap">
+            <h4>Контакты</h4>
+            <span>Краснодар Тургеневское шоссе, 25</span><br/>
+            <span>+7 (861) 212-34-92</span>
+            <form action="/action.php" method="post">
+                <input type="tel"  name="tel" placeholder="Введите телефон">
+                <input type="submit" value="Заказать звонок">
+            </form>
+        </div>
+        </section>
+    </footer>
+    </div>
+  </body>
+</html>
