@@ -277,7 +277,7 @@ footer h5 {
       justify-content: center;
     }
     .right {margin-left: 0;}
-    .contacts {left: 0; top:240px;}
+    .contacts {left: 0; top:180px;}
     footer .wrapper {padding: 0;}
     #popup {padding: 20px;}
   }
@@ -286,7 +286,11 @@ footer h5 {
     header .wrapper {padding-left: 5px;}
     .mobile_menu {margin-left: 5px;}
     .marker {margin-left: 5px;}
-    .mobile_menu .showmenu {font-size: 48px;}
+    .marker span {font-size: 10px;}
+    .logo img {width: 100px;}
+    .mobile_menu .showmenu {font-size: 36px;}
     .forma form input[type=submit] {padding: 14px 40px;}
     #popup {width: 300px;}
+    .attention, .forma h2 {font-size: 26px;}
+    .head.red span {font-size: 22px;}
   }
