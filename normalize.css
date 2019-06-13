@@ -339,6 +339,11 @@ template {
  * Add the correct display in IE 10.
  */
 
+ input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 [hidden] {
   display: none;
 }

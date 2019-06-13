@@ -6,6 +6,10 @@
     <title>Test Kia</title>
     <link rel="stylesheet" href="./normalize.css"> 
     <link rel="stylesheet" href="./styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -37,7 +41,7 @@
         </section>
         <section class="mobile_none">
             <div class="header_wrap">
-            <div class="btn red"><a href="#popup">Заказать звонок</a></div>
+            <div class="btn red"><a data-fancybox data-src="#popup" href="javascript:;">Заказать звонок</a></div>
             <div class="kia"><img src="src/logoKia.png"></div>
             </div>
     </section>
@@ -49,7 +53,7 @@
             <span>Только до конца октября</span><br/>
             <span class="attention">масшабные выгоды</span><br/>
             <span>на весь модельный ряд!</span></br>
-            <div class="btn profit redfont bold"><a href="#popup">Забрать выгоду</a></div>
+            <div class="btn profit redfont bold"><a data-fancybox data-src="#popup" href="javascript:;">Забрать выгоду</a></div>
         
         <h1 class="mobile_none">Подберите свой KIA</h1>
         <div class="list mobile_none">
@@ -87,15 +91,15 @@
         </div>
     </section> 
     <div id="popup" class="popup">
-            <div class="popup_wrap">
-                <a href="#close" class="close">&#10006;</a>
+           <!-- <div class="popup_wrap"> -->
+            <!-- <a href="#close" class="close">&#10006;</a> -->
                 <h3>Получите все выгоды!</h3>
                 <form action="/action.php" method="post">
                     <input type="tel"  name="tel" placeholder="Введите номер">
                     <input type="submit"class="red" value="Получить все выгоды">
                 </form>
                 <p>Нажав на кнопку "Отправить заявку", я даю согласие на обработку моих персональных данных и получение рекламных предложений. С условиями обработки персональных данных и получения предложений - ознакомлен и согласен.</p>
-            </div>
+
         </div>
     <ul class="main wrapper">
         <li class="car" id="rio">
@@ -106,9 +110,9 @@
             <div class="right">
                 <div class="sircle"><img src="src/sircle.jpg"><span>Зимняя резина <br/>в подарок</span></div>
                 <span class="redfont bold">Выгода до 60 000 руб.</span>
-                <div class="btn redfont kredit"><a href="#popup">В кредит за 3 500 р/мес</a></div>
-                <div class="btn red"><a href="#popup">Получить выгоду</a></div>
-                <div class="btn spez"><a href="#popup">Спецпредложение</a></div>
+                <div class="btn redfont kredit"><a data-fancybox data-src="#popup" href="javascript:;">В кредит за 3 500 р/мес</a></div>
+                <div class="btn red"><a data-fancybox data-src="#popup" href="javascript:;">Получить выгоду</a></div>
+                <div class="btn spez"><a data-fancybox data-src="#popup" href="javascript:;">Спецпредложение</a></div>
             </div>
             <div class="rectangle"></div>
         </li>
@@ -120,9 +124,9 @@
             <div class="right">
                 <div class="sircle"><img src="src/sircle.jpg"><span>Зимняя резина <br/>в подарок</span></div>
                 <span class="redfont bold">Выгода до 60 000 руб.</span>
-                <div class="btn redfont kredit"><a href="#popup">В кредит за 3 500 р/мес</a></div>
-                <div class="btn red"><a href="#popup">Получить выгоду</a></div>
-                <div class="btn spez"><a href="#popup">Спецпредложение</a></div>
+                <div class="btn redfont kredit"><a data-fancybox data-src="#popup" href="javascript:;">В кредит за 3 500 р/мес</a></div>
+                <div class="btn red"><a data-fancybox data-src="#popup" href="javascript:;">Получить выгоду</a></div>
+                <div class="btn spez"><a data-fancybox data-src="#popup" href="javascript:;">Спецпредложение</a></div>
             </div>
             <div class="rectangle"></div>
         </li>
