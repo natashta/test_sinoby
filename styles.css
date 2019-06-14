@@ -147,8 +147,8 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;}
 .sircle span {display: inline-block; font-size: 14px; padding-left: 10px; line-height: 1.3em; vertical-align: top;}
-.right .btn, header .btn {padding: 14px 30px;}
-.btn.kredit {padding: 14px 20px;}
+.right .btn, header .btn {padding: 14px 30px; margin-top: 10px;}
+.btn.kredit {padding: 14px 20px; }
 
 footer {position: relative;}
 .map {width: 50%; position: relative;}
@@ -238,27 +238,26 @@ footer h5 {
 
   @media (max-width: 1300px){
     header .red, .head.red {width: 50%;}
-    .wrapper {padding-left: 100px;}
+    .wrapper {padding-left: 80px;}
     .marker {margin-left: 20px;}
     .kia {margin-left: 100px;}
   }
 
   @media (max-width: 1110px) {
-    .img {left: 0;}
+    .img {left: 0; width: 100%;}
     header .wrapper {padding-left: 30px;}
     .banner .wrapper {padding-top: 480px;}
-    .forma {padding-left: 100px;}
+    .forma {padding-left: 80px;}
     .head.red {width: 100%;}
     ul.main {display: block;}
     ul.main li:not(:first-child) {margin-top: 60px;}
-    .car {justify-content: center;}
+    .car {justify-content: flex-start; margin-left: 0;}
   }
 
   @media (max-width: 876px) {
-    .img {width: 100%;}
+    .attention {font-size: 42px;}
     header .red {width: 100%;}
     .mobile_none {display: none;}
-    .mobile_map {display: block;}
     .mobile_menu {display: inline-block; margin-left: 40px;}
     .mobile_menu input:checked ~ ul {display: block; margin-left: -20px;}
     label {opacity: 1;}
@@ -280,17 +279,20 @@ footer h5 {
     .contacts {left: 0; top:180px;}
     footer .wrapper {padding: 0;}
     #popup {padding: 20px;}
+    .big_map {display: none;}
+    .mobile_map {display: block;}
   }
 
   @media (max-width: 510px) {
-    header .wrapper {padding-left: 5px;}
+    header .wrapper{padding-left: 10px;}
     .mobile_menu {margin-left: 5px;}
     .marker {margin-left: 5px;}
     .marker span {font-size: 10px;}
     .logo img {width: 100px;}
     .mobile_menu .showmenu {font-size: 36px;}
-    .forma form input[type=submit] {padding: 14px 40px;}
+    .forma form input[type=submit] {padding: 14px 40px; margin-left: 0;}
     #popup {width: 300px;}
     .attention, .forma h2 {font-size: 26px;}
     .head.red span {font-size: 22px;}
+    .car {margin-left: 0;}
   }
