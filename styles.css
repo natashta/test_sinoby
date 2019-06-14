@@ -281,6 +281,7 @@ footer h5 {
     #popup {padding: 20px;}
     .big_map {display: none;}
     .mobile_map {display: block;}
+    .map {width: 100%; text-align: center;}
   }
 
   @media (max-width: 510px) {
