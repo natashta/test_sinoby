@@ -175,8 +175,12 @@ footer h5 {
 
   .contacts input[type=tel] {
     background-color:#a30606;
-    color: white;
   }
+
+  .contacts input[type=tel]::-webkit-input-placeholder { color: #ffffff; }
+   .contacts input[type=tel]:-ms-input-placeholder { color: #ffffff; }
+   .contacts input[type=tel]::-ms-input-placeholder { color: #ffffff; }
+   .contacts input[type=tel]::placeholder { color: #ffffff; } 
 
   .footer_wrap{margin-left:30px; margin-bottom: 40px;}
   .contacts h4 {font-weight: 400; margin-bottom: 10px;}
